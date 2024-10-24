@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/97238f579d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="overflow-x-hidden">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-2" id="navbar">
+        <div class="container p-0">
+            <a href="/" class="navbar-brand">
+                <img src="../images/logo.png" alt="Logo" id="img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown  mx-2">
+                        <a class="nav-link home-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="drop-main dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #3b415f;">
+                          <li><a class="drop-item dropdown-item text-white text-center  font-med" href="#">About Us</a></li>
+                          <li><a class="drop-item dropdown-item text-white text-center font-med" href="#">Our Services</a></li>
+                          <li><a class="drop-item dropdown-item text-white text-center font-med" href="#">Contact Us</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <button class="btn btn-success p-0">
+                            <a class="nav-link text-white" href="#">Contact Support</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide container-fluid p-0" id="carousel" data-bs-ride="carousel" style="height: 100vh;"
+        id="home">
+        <div class="carousel-inner">
+            <div class="carousel-item active mt-3 mt-md-0">
+                <div class="bg-image d-flex align-items-center "
+                    style="background-image: url('../images/slide-01.jpg'); background-size: cover; background-position: center; height: 100vh;">
+
+                    <div class="container py-5 text-center text-md-start">
+                        <h1 id="carousel-heading" class="text-white display-4 display-md-3 fw-bold ">
+                            Get <span style="color: #FF5733">ready</span> for your business
+                            <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                        </h1>
+                        <hr class="border-3 hr border border-white opacity-100 rounded my-5 mx-auto mx-md-0">
+                        <p class="text-white d-none d-md-block slide-left">Mexant HTML5 Template is provided for free of
+                            charge.
+                            This layout is based
+                            on Boostrap 5 CSS framework. Anyone can <br> download and edit for any professional website.
+                            Thank you for visiting TemplateMo website.</p>
+                        <div
+                            class="mt-5 d-flex flex-row justify-content-center justify-content-md-start align-items-center">
+                            <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0 slide-up">Discover
+                                More</button>
+                            <button type="button" class="btn text-white mb-2 mb-lg-0 slide-up"
+                                style="background-color: #FF5733">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item mt-3 mt-md-0">
+                <div class="bg-image d-flex align-items-center "
+                    style="background-image: url('../images/slide-01.jpg'); background-size: cover; background-position: center; height: 100vh;">
+
+                    <div class="container py-5 text-center text-md-start">
+                        <h1 id="carousel-heading" class="text-white display-4 display-md-3 fw-bold ">
+                            Get <span style="color: #FF5733">ready</span> for your business
+                            <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                        </h1>
+                        <hr class="border-3 hr border border-white opacity-100 rounded my-5 mx-auto mx-md-0">
+                        <p class="text-white d-none d-md-block slide-left">Mexant HTML5 Template is provided for free of
+                            charge.
+                            This layout is based
+                            on Boostrap 5 CSS framework. Anyone can <br> download and edit for any professional website.
+                            Thank you for visiting TemplateMo website.</p>
+                        <div
+                            class="mt-5 d-flex flex-row justify-content-center justify-content-md-start align-items-center">
+                            <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0 slide-up">Discover
+                                More</button>
+                            <button type="button" class="btn text-white mb-2 mb-lg-0 slide-up"
+                                style="background-color: #FF5733">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  mt-3 mt-md-0">
+                <div class="bg-image d-flex align-items-center "
+                    style="background-image: url('../images/slide-01.jpg'); background-size: cover; background-position: center; height: 100vh;">
+
+                    <div class="container py-5 text-center text-md-start">
+                        <h1 id="carousel-heading" class="text-white display-4 display-md-3 fw-bold ">
+                            Get <span style="color: #FF5733">ready</span> for your business
+                            <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                        </h1>
+                        <hr class="border-3 hr border border-white opacity-100 rounded my-5 mx-auto mx-md-0">
+                        <p class="text-white d-none d-md-block slide-left">Mexant HTML5 Template is provided for free of
+                            charge.
+                            This layout is based
+                            on Boostrap 5 CSS framework. Anyone can <br> download and edit for any professional website.
+                            Thank you for visiting TemplateMo website.</p>
+                        <div
+                            class="mt-5 d-flex flex-row justify-content-center justify-content-md-start align-items-center">
+                            <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0 slide-up">Discover
+                                More</button>
+                            <button type="button" class="btn text-white mb-2 mb-lg-0 slide-up"
+                                style="background-color: #FF5733">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container my-lg-5 p-lg-5 align-items-center d-flex flex-column justify-content-center gap-4 p-0"
+        id="services">
+        <div class="row w-100 p-0 mt-5">
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex  p-2 box-shadow flex-row rounded-3" style="height: 10rem;">
+                    <div class="col-1 mx-4 d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-3x fa-archive" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">CSS Templates</h4>
+                        <p class="mt-sm-3 ms-3">TemplateMo website is the best for you to explore and download free website
+                            templates.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex box-shadow p-2 mt-4 mt-lg-0 flex-row rounded" style="height: 10rem;">
+                    <div class="col-1 mx-4 d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-3x fa-cloud" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">HTML5 Web Pages</h4>
+                        <p class="mt-sm-3 ms-3">Templates are based on Bootstrap 5 CSS framework. You can easily adapt or modify
+                            based on your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row w-100">
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex box-shadow p-2  flex-row rounded" style="height: 10rem;">
+                    <div class="col-1 mx-4 text-center d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-3x fa-charging-station" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">Responsive Designs</h4>
+                        <p class="mt-sm-3 ms-3">All of our css templates are 100% free to use for commercial or business
+                            websites.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex box-shadow mt-4 mt-lg-0 p-2 flex-row rounded" style="height: 10rem;">
+                    <div class="col-1 mx-4 text-center d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-3x fa-suitcase" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">Mobile and Tablet ready!</h4>
+                        <p class="mt-sm-3 ms-3">Our HTML and CSS templates are well tested on mobile, tablet and desktop
+                            comptability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row w-100 mb-5">
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex box-shadow p-2  flex-row rounded" style="height: 10rem;">
+                    <div class="col-1 mx-4 text-center d-flex flex-column justify-content-center align-items-center">                        <i class="fas fa-3x fa-archway" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">Fast Customer Support</h4>
+                        <p class="mt-sm-3 ms-3">Do Not be hesitate to contact us if you have any question of concern about our
+                            templates.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-6 col-sm-12 p-2">
+                <div class="d-flex box-shadow p-3 mt-4 mt-lg-0 flex-row rounded" style="height: 10rem;">
+                    <div class="col-1 mx-4 text-center d-flex flex-column justify-content-center align-items-center">
+                        <i class="fas fa-3x fa-puzzle-piece" aria-hidden="true" style="color: #00c96b;"></i>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <h4 class="ms-3">Full customizable</h4>
+                        <p class="mt-sm-3 ms-3">If you have any ideas and suggestion about new templates, feel free to let us
+                            know.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container-fluid p-0"
+        style="background-image: url('../images/cta-bg.jpg'); background-size: cover; height: 230px;">
+        <div
+            class="container d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center p-0 h-100">
+            <div class="d-flex flex-column justify-content-center text-white text-center text-md-start mb-2 mb-md-0">
+                <h1 class="fw-bolder">Business <span style="color: #00c96b;">Solutions</span> and <br> <span
+                        style="color: #FF5733;">Crypto</span> Investments</h1>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-row gap-2 flex-wrap justify-content-center ">
+                    <button class="btn btn-success" type="button">Discover More</button>
+                    <button class="btn text-white" type="button" style="background-color: #FF5733;">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container p-0 overflow-hidden" id="about">
+        <div class="">
+            <div class="p-0 mt-5 d-flex flex-column align-items-center">
+                <div class="">
+                    <h5 class="text-center" style="color: #FF5733;">About us</h5>
+                    <h1>Know us Better</h1>
+                </div>
+            </div>
+            <div class="row d-flex flex-column flex-md-row align-items-start">
+                <div class="col-md-8 d-flex flex-column">
+                    <div class="d-flex w-100 flex-column mt-2 mt-sm-5 justify-content-evenly">
+                        <div
+                            class=" d-flex flex-column flex-wrap flex-sm-row justify-content-evenly align-items-center mx-2 mx-md-1 mb-4">
+                            <div class="col-6 col-sm-3">
+                                <button class="btn box-shadow w-100 p-lg-3 my-2 m-sm-0 p-md-2 fw-medium">
+                                    <span class="" style="color: #FF5733;"> Web Design</span>
+                                </button>
+
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <button class="btn box-shadow w-100 p-lg-3 my-2 m-sm-0 p-md-2 fw-medium">
+                                    Graphics
+                                </button>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <button class="btn box-shadow w-100 p-lg-3 my-2 m-sm-0 p-md-2 fw-medium">
+                                    Web Coding
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-100 px-md-2 px-2 mb-lg-5">
+                            <table class=" table table-hover mb-5 slide-right">
+                                <thead>
+                                    <tr>
+                                        <th class="py-4">Project Title</th>
+                                        <th class="py-4">Budget</th>
+                                        <th class="py-4">Deadline</th>
+                                        <th class="py-4">Client</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-success fw-bold py-4">Website Redesign</td>
+                                        <td class="py-4">$1500 to $2200</td>
+                                        <td class="py-4">2022 Dec 12</td>
+                                        <td class="py-4">Web biz</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-success fw-bold py-4">Website Renovation</td>
+                                        <td class="py-4">$2500 to $3600</td>
+                                        <td class="py-4">2022 Dec 10</td>
+                                        <td class="py-4">Online Ads</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-success fw-bold py-4">Marketing Plan</td>
+                                        <td class="py-4">$2500 to $4200</td>
+                                        <td class="py-4">2022 Dec 8</td>
+                                        <td class="py-4">Web biz</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-success fw-bold py-4">All-new Website</td>
+                                        <td class="py-4">$3000 to $6600</td>
+                                        <td class="py-4">2022 Dec 2</td>
+                                        <td class="py-4">Web Presence</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto p-4 my-lg-4">
+                    <h4 class="my-3">Please tell us about your idea and how you want it to be</h4>
+                    <p class=" mt-5">You are allowed to use this template for your websites. You are <strong>Not
+                            Allowed</strong> to redistribute the template zip file on any other template websites.</p>
+                    <p class=" mt-3">Thank you for downloading and using our templates. Please tell your friends about
+                        our website. </p>
+                    <div>
+                        <button class="btn btn-success mt-4" type="button">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="background-image: url('../images/calculator-bg.jpg'); background-size: cover; height: auto; min-height: 635px;"
+        class="d-flex flex-column flex-lg-row mt-5 justify-content-between">
+
+        <div class="position-relative w-100 w-lg-50 d-none d-lg-block">
+            <img src="../images/calculator-image.png" style="left: 20%; width: 80%; height: auto;"
+                class="bottom-0 position-absolute" alt="">
+        </div>
+
+        <div class="mt-5 w-100 w-lg-50 d-flex flex-column px-5 py-2">
+            <h5 style="color: #FF5733;">Your Freedom</h5>
+            <h1 class="text-white">Get a Financial Plan</h1>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name" class="form-label text-white">Your Name</label>
+                        <input type="text" id="name" class="form-control border-0 py-2"
+                            style="background-color: rgba(255, 255, 255, 0.342);">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email" class="form-label text-white">Your Email</label>
+                        <input type="email" id="email" class="form-control border-0 py-2"
+                            style="background-color: rgba(255, 255, 255, 0.342);">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-group ">
+                        <label for="subject" class="form-label text-white">Subject</label>
+                        <input type="text" id="subject" class="form-control border-0 py-2"
+                            style="background-color: rgba(255, 255, 255, 0.342);">
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-group">
+                        <label class="form-label text-white">Service Type</label>
+                        <select class="form-select text-white border-0 py-2"
+                            style="background-color: rgba(255, 255, 255, 0.342);">
+                            <option style="background-color: #272e4e;" class="text-white" selected><label for="">Choose
+                                    an
+                                    option</label></option>
+                            <option style="background-color: #272e4e;" class="" value="1">Option - 1</option>
+                            <option style="background-color: #272e4e;" value="2">Option - 2</option>
+                            <option style="background-color: #272e4e;" value="3">Option - 3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" style="background-color: #FF5733;"
+                class="btn mt-4 mt-md-5 pb-2 px-1 text-white w-25">Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container my-1 my-md-5 d-flex p-0 flex-column align-items-center" id="testimonials">
+        <h5 style="color: #FF5733;" class="mt-5">Testimonials</h5>
+        <h1 class="mb-4">What They Say</h1>
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                    class="indicator bg-danger active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="indicator bg-danger"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="indicator bg-danger "
+                    aria-current="true"></button>
+            </div>
+
+            <div class="carousel-inner container">
+                <div class="carousel-item active">
+                    <div class="container shadow rounded-3 my-5 p-0 ">
+                        <div class="row w-100 m-0 justify-content-center align-items-center">
+                            <div class="col p-3 p-sm-5 py-4">
+                                <div class="bg-success col-md-3 col-lg-1 col-2 text-center e-sm p-2 rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid w-100" viewBox="0 0 16 16"
+                                        fill="white">
+                                        <path
+                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                    </svg>
+                                </div>
+
+                                <p class="mt-3">
+                                    “Donec et nunc massa. Nullam non felis dignissim, dapibus turpis semper, vulputate
+                                    lorem. Nam
+                                    volutpat posuere tellus,in porttitor justo interdum nec. Aenean indapibus risus, in
+                                    euismod
+                                    ligula. Aliquam vel scelerisque elit.”
+                                </p>
+                                <h4>
+                                    David Eigenberg
+                                </h4>
+                                <h6 class="text-success">
+                                    CEO of Mexant
+                                </h6>
+
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 col-xl-3 p-3 p-lg-0 text-md-end text-center">
+                                <img src="../images/testimonials-01.jpg" alt="Testimonial Image" class="img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container shadow rounded-3 my-5 p-0 ">
+                        <div class="row w-100 m-0 justify-content-center align-items-center">
+                            <div class="col p-3 p-sm-5 py-4">
+                                <div class="bg-success col-md-3 col-lg-1 col-2 text-center p-2 rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid w-100" viewBox="0 0 16 16"
+                                        fill="white">
+                                        <path
+                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                    </svg>
+                                </div>
+
+                                <p class="mt-3">
+                                    “Donec et nunc massa. Nullam non felis dignissim, dapibus turpis semper, vulputate
+                                    lorem. Nam
+                                    volutpat posuere tellus,in porttitor justo interdum nec. Aenean indapibus risus, in
+                                    euismod
+                                    ligula. Aliquam vel scelerisque elit.”
+                                </p>
+                                <h4>
+                                    David Eigenberg
+                                </h4>
+                                <h6 class="text-success">
+                                    CEO of Mexant
+                                </h6>
+
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 col-xl-3 p-3 p-lg-0 text-md-end text-center">
+                                <img src="../images/testimonials-01.jpg" alt="Testimonial Image" class="img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container shadow rounded-3 my-5 p-0 ">
+                        <div class="row w-100 m-0 justify-content-center align-items-center">
+                            <div class="col p-3 p-sm-5 py-4">
+                                <div class="bg-success col-md-3 col-lg-1 col-2 text-center p-2 rounded">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid w-100" viewBox="0 0 16 16"
+                                        fill="white">
+                                        <path
+                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                    </svg>
+                                </div>
+
+                                <p class="mt-3">
+                                    “Donec et nunc massa. Nullam non felis dignissim, dapibus turpis semper, vulputate
+                                    lorem. Nam
+                                    volutpat posuere tellus,in porttitor justo interdum nec. Aenean indapibus risus, in
+                                    euismod
+                                    ligula. Aliquam vel scelerisque elit.”
+                                </p>
+                                <h4>
+                                    David Eigenberg
+                                </h4>
+                                <h6 class="text-success">
+                                    CEO of Mexant
+                                </h6>
+
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 col-xl-3 p-3 p-lg-0 text-md-end text-center">
+                                <img src="../images/testimonials-01.jpg" alt="Testimonial Image" class="img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-2 " style="background-color: rgb(38, 45, 85);">
+        <div
+            class="p-5 p-sm-1 p-md-1 p-xl-5 container-fluid d-flex p-0 flex-wrap flex-row gap-4 justify-content-center">
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex flex-column p-0 justify-content-center align-items-center text-white"
+        style="background-color: rgb(31, 29, 59);">
+        <p class="mt-2">Copyright 2022 Maxent Co, Ltd. All Rights Reserved.</p>
+        <p>Designed by Template Distributed by Template</p>
+    </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
